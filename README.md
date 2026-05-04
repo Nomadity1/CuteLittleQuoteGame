@@ -1,4 +1,4 @@
-# Tiny citation game app as exercise in JavaScript for React with API integration   
+## Tiny citation game app as exercise in JavaScript for React with API integration   
 
 ### Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
