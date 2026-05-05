@@ -1,8 +1,7 @@
-import React from "react";
+// CHILD-komponent till QuoteBoard.jsx
+// uppgift: presentera ett citat
 
-// Child-komponent till QuoteBoard.jsx
-// ... visar två citat genom att anropa QuoteCard-komponenten två gånger
-// ... och skickar tillbaka valda citat till QuoteBoard
+import React from "react";
 
 export default function QuoteCard({ quote, onSelected }) {
   // STYLING
@@ -22,6 +21,7 @@ export default function QuoteCard({ quote, onSelected }) {
     textAlign: "center",
   };
 
+  // RENDERING AV CITAT-KORT
   return (
     <article className="quoteCard" style={quoteCardStyle}>
       <button
